@@ -92,20 +92,20 @@ export default {
       latest_stat_au: [],
       statesData: [],
       statesReportDate: [],
-      reportTime: "12 April 2020, 3:00pm",
-confiredCases: [
-        ["au-ct", 102], //首都领地
+      reportTime: "14 April 2020, 3:00pm",
+      confiredCases: [
+        ["au-ct", 103], //首都领地
         ["au-nt", 27], //北领地
-        ["au-wa", 517], //西澳大利亚州
-        ["au-sa", 429], //南澳大利亚
-        ["au-ql", 983], //昆士兰州
+        ["au-wa", 527], //西澳大利亚州
+        ["au-sa", 433], //南澳大利亚
+        ["au-ql", 998], //昆士兰州
         //  ['au-2557', 5],
-        ["au-ts", 133], //塔斯马尼亚
+        ["au-ts", 151], //塔斯马尼亚
         // ['au-jb', 7],
-        ["au-ns", 2854], //新南威尔士州
-        ["au-vi", 1268] //维多利亚州
+        ["au-ns", 2870], //新南威尔士州
+        ["au-vi", 1291] //维多利亚州
       ],
-      totalCases:6313,
+      totalCases:6400,
       mapOptions: {
         chart: {
           map: "au-all"
