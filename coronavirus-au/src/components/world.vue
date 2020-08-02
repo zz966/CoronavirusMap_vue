@@ -111,7 +111,7 @@ export default {
       axios({
         method: "GET",
         url:
-          "https://coronavirus-monitor-v2.p.rapidapi.com/coronavirus/latest_stat_by_country_name.php",
+          "https://coronavirus-monitor-v2.p.rapidapi.com/coronavirus/latest_stat_by_country.php",
         headers: {
           "content-type": "application/octet-stream",
           "x-rapidapi-host": "coronavirus-monitor-v2.p.rapidapi.com",

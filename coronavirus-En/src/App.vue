@@ -3,7 +3,7 @@
     <h1> COVID-19 current situation and case numbers </h1>
      <div align="right" class="language">
       <label for="" class='language' >Language:</label>  
-      <a class='language'  href="https://forfun.link/coronavirus/index.html#/au">  中文</a> <a class='language'  href="https://forfun.link/coronavirus/au/index.html#/au">English</a>
+      <a class='language'  href="http://coronavirus-au.s3-website-ap-southeast-2.amazonaws.com">  中文</a> <a class='language'  href="http://coronavirus-en.s3-website-ap-southeast-2.amazonaws.com/">English</a>
     </div>
     <nav class="navbar navbar-dark bg-primary">
       <router-link to="/home">you need to know</router-link>

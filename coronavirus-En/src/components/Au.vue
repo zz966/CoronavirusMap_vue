@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Australia's latest outbreak information statistics</h2>
+    <h2>Australia's COVID-19 information statistics</h2>
     <h6>（ Automated real-time updates ）</h6>
     <table align="center">
       <thead>
@@ -92,20 +92,20 @@ export default {
       latest_stat_au: [],
       statesData: [],
       statesReportDate: [],
-      reportTime: "14 April 2020, 3:00pm",
+      reportTime: "16 April 2020, 3:00pm",
       confiredCases: [
         ["au-ct", 103], //首都领地
         ["au-nt", 27], //北领地
-        ["au-wa", 527], //西澳大利亚州
-        ["au-sa", 433], //南澳大利亚
-        ["au-ql", 998], //昆士兰州
+        ["au-wa", 535], //西澳大利亚州
+        ["au-sa", 434], //南澳大利亚
+        ["au-ql", 1001], //昆士兰州
         //  ['au-2557', 5],
-        ["au-ts", 151], //塔斯马尼亚
+        ["au-ts", 170], //塔斯马尼亚
         // ['au-jb', 7],
-        ["au-ns", 2870], //新南威尔士州
-        ["au-vi", 1291] //维多利亚州
+        ["au-ns", 2897], //新南威尔士州
+        ["au-vi", 1301] //维多利亚州
       ],
-      totalCases:6400,
+      totalCases:6468,
       mapOptions: {
         chart: {
           map: "au-all"
@@ -169,7 +169,7 @@ export default {
       axios({
         method: "GET",
         url:
-           "https://coronavirus-monitor-v2.p.rapidapi.com/coronavirus/latest_stat_by_country_name.php",
+           "https://coronavirus-monitor-v2.p.rapidapi.com/coronavirus/latest_stat_by_country.php",
         headers: {
           "content-type": "application/octet-stream",
           "x-rapidapi-host": "coronavirus-monitor-v2.p.rapidapi.com",
